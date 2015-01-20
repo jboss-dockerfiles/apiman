@@ -1,4 +1,4 @@
-FROM jboss/wildfly
+FROM jboss/wildfly:8.2.0.Final
 MAINTAINER Jorge Morales <jmorales@redhat.com>
 
 ENV APIMAN_VERSION 1.0.1.Final
