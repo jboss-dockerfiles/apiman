@@ -62,7 +62,7 @@ The source is [available on GitHub](https://github.com/jboss-dockerfiles/apiman)
 
 ## Version
 
-Current/Latest apiman release is: 1.0.1.Final
+Current/Latest apiman release is: 1.0.5.Final
 
 ## Issues
 
