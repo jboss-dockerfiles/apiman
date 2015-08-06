@@ -60,9 +60,6 @@ You don't need to do this on your own, because we prepared an [automated build](
 
 The source is [available on GitHub](https://github.com/jboss-dockerfiles/apiman).
 
-## Version
-
-Current/Latest apiman release is: 1.0.1.Final
 
 ## Issues
 
