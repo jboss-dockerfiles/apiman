@@ -1,0 +1,6 @@
+FROM jboss/apiman-wildfly
+MAINTAINER Kunal Limaye <kunal@finiteloop.me>
+
+RUN /opt/jboss/wildfly/bin/add-user.sh root Root!23 --silent
+RUN java -version
+CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0", "-c", "standalone-apiman.xml"]

@@ -1,4 +1,4 @@
-FROM jboss/wildfly:8.2.0.Final
+FROM jboss/wildfly:8.2.1.Final
 MAINTAINER Jorge Morales <jmorales@redhat.com>
 
 ENV APIMAN_VERSION 1.1.9.Final
@@ -9,4 +9,3 @@ RUN cd $JBOSS_HOME \
  && rm apiman-distro-wildfly8-$APIMAN_VERSION-overlay.zip
 
 CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-c", "standalone-apiman.xml"]
-
