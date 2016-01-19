@@ -8,5 +8,5 @@ RUN cd $JBOSS_HOME \
  && bsdtar -xf apiman-distro-wildfly8-$APIMAN_VERSION-overlay.zip \
  && rm apiman-distro-wildfly8-$APIMAN_VERSION-overlay.zip
 
-CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-c", "standalone-apiman.xml"]
+ENTRYPOINT ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-c", "standalone-apiman.xml"]
 
