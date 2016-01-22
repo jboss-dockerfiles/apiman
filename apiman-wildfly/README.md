@@ -27,7 +27,7 @@ Then you can build the image:
  
 Run it:
 
-    docker run -it -p 9990:9990 -p 8080:8080 jboss/apiman-wildfly-admin  
+    docker run -it -p 9990:9990 -p 8080:8080 -p 8443:8443 jboss/apiman-wildfly-admin  
  
 The administration console should be available at http://localhost:9990.
  
@@ -48,7 +48,7 @@ Then you can build the image:
  
 Run it:
 
-    docker run -it -p 8787:8787 -p 9990:9990 -p 8080:8080 jboss/apiman-debug
+    docker run -it -p 8787:8787 -p 9990:9990 -p 8080:8080 -p 8443:8443 jboss/apiman-debug
 
 ## Building on your own
 
